@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPS Based Profile Changer </string>
+    <string name="placeprompt">Choose a place</string>
+
+    <string-array name="items">
+        <item>College</item>
+        <item>Auditorium</item>
+        <item>Hospital</item>
+
+        <item>Office</item>
+    </string-array>
+    <string-array name="mode">
+
+        <item>Ring</item>
+        <item>Silent</item>
+    </string-array>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#E6CCFF"
+    tools:context="com.android.gpsbasedprofilechanger.Userpage">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="15dp"
+        android:text="Register Process"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/e1"
+        android:textStyle="bold"
+        android:hint="Username"
+        android:textSize="23sp"
+        android:inputType="text"
+        android:layout_marginTop="65dp"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/e2"
+        android:textStyle="bold"
+        android:hint="Password"
+        android:textSize="23sp"
+        android:inputType="textPassword"
+        android:layout_marginTop="58dp"
+        android:layout_below="@+id/e1"
+        android:layout_alignStart="@+id/e1"
+        tools:ignore="HardcodedText"
+        android:layout_alignEnd="@+id/e1" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/e2"
+        android:layout_below="@+id/e2"
+        android:layout_marginTop="79dp"
+        android:background="@color/colorPrimary"
+        android:text="Clear"
+        android:textStyle="italic"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Register"
+        android:textStyle="italic"
+        tools:ignore="HardcodedText"
+        android:layout_alignBaseline="@+id/b1"
+        android:layout_alignBottom="@+id/b1"
+        android:layout_toEndOf="@+id/b1"
+        android:layout_marginStart="19dp" />
+</RelativeLayout>
